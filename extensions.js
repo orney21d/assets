@@ -133,14 +133,14 @@ export const FormExtension = {
             }
           </style>
 
-          <label for="name">Name</label>
+          <label for="name">Nombre y Apellido</label>
           <input type="text" class="name" name="name" required><br><br>
 
           <label for="email">Email</label>
-          <input type="email" class="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Invalid email address"><br><br>
+          <input type="email" class="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Email inválido"><br><br>
 
-          <label for="phone">Phone Number</label>
-          <input type="tel" class="phone" name="phone" required pattern="\\d+" title="Invalid phone number, please enter only numbers"><br><br>
+          <label for="phone">Teléfono</label>
+          <input type="tel" class="phone" name="phone" required pattern="\\d+" title="Número de teléfono no válido, ingrese solo números"><br><br>
 
           <input type="submit" class="submit" value="Submit">
         `
